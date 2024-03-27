@@ -1,2 +1,5 @@
 hello this is my first text file
+<<<<<<< Updated upstream
 changes made feature y
+=======
+>>>>>>> Stashed changes
