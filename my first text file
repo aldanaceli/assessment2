@@ -1,5 +1,13 @@
 hello this is my first text file
-<<<<<<< Updated upstream
+<<<<<<< feature-x
+Making changes to follow step a-4 from assessment 2 Devops.
+
+Changes made on feature xx
+Change made on feature y
+=======
+Changes from main branch.
+>>>>>>> main
+
 changes made feature y
 =======
 >>>>>>> Stashed changes
