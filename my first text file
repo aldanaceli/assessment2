@@ -4,3 +4,8 @@ Making changes to follow step a-4 from assessment 2 Devops.
 These are further changes made from the main branch to the same file and leave it open.
 Changes made on feature xx
 Change made on feature y
+=======
+Changes from main branch.
+>>>>>>> main
+
+changes made feature y
