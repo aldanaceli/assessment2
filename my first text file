@@ -1,13 +1,3 @@
 hello this is my first text file
 changes made feature z
-more changes feature z.
-<<<<<<< feature-x
-Making changes to follow step a-4 from assessment 2 Devops.
-
-Changes made on feature xx
-Change made on feature y
-=======
-Changes from main branch.
->>>>>>> main
-
-changes made feature y
+more changes feature Z 
