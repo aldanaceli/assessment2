@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Mar 20 20:43:24 2024
+
+@author: aldiceli
+"""
+
+
+print("Welcome to my Devops application!")
+num = input("Please enter a number: ")
+print("The number entered is " + num + "!")
+
+#Check for correct imput
+if int(num) < 0:
+    print("Invalid input")
+        
+if int(num) >= 0 and int(num) <= 5:
+     print("Number is inserted successfully")
+ 
+else:
+     print("Number is not in range of 0 to 5")
+        
+
+# Import necessary modules for unit testing
+import unittest
+
+# Create a class for our unit test
+class TestInput(unittest.TestCase):
+
+    # Define the test method
+    def test_num_input(self):
+        
+        # Test input with a negative number
+        num = "-5"
+        self.assertEqual(num, "-5", "Invalid input")
+
+        # Test input with a number between 0 and 5
+        num = "4"
+        self.assertGreaterEqual(int(num), 0, "Number is inserted successfully")
+        self.assertLessEqual(int(num), 5, "Number is inserted successfully")
+
+        # Test input with a number greater than 5
+        num = "10"
+        self.assertGreater(int(num), 5, "Number is not in range of 0 to 5")
+
+# Run the unit test
+if __name__ == "__main__":
+    unittest.main()
+
+# Check for negative result 
+# Import the necessary libraries
+import unittest
+
+def check_input(input):
+    # Check for negative input
+    if input < 0:
+        return "Invalid input"
+    else:
+        return "Valid input"
+
+class TestNegativeInput(unittest.TestCase):
+    def setUp(self):
+        pass
+    
+    def test_negative_input(self):
+        result = check_input(-3)
+        self.assertEqual(result, "Invalid input")
+
+
+# Import necessary modules for unit testing
+import unittest
+
+# Create a class for our unit test
+class TestInput(unittest.TestCase):
+
+    # Define the test method
+    def test_num_input(self):
+        
+        # Test input with a negative number
+        num = "-5"
+        self.assertEqual(num, "-5", "Invalid input")
+
+        # Test input with a number between 0 and 5
+        num = "4"
+        self.assertGreaterEqual(int(num), 0, "Number is inserted successfully")
+        self.assertLessEqual(int(num), 5, "Number is inserted successfully")
+
+        # Test input with a number greater than 5
+        num = "10"
+        self.assertGreater(int(num), 5, "Number is not in range of 0 to 5")
+
+# Run the unit test
+if __name__ == "__main__":
+    unittest.main()
+#Divide by zero
+numerator = 10
+denominator = 0
+
+try:
+    result = numerator / denominator
+    print(result)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+# Check if an input is a string or not
+
+input_str = input("Enter a string: ")
+if type(input_str) == str:
+    print("Valid input")
+else:
+    print("Invalid input")
+
+#Check for valid input number    
+def check_input(input):
+    if input == str:
+        print("Valid input")
+    else:
+        print("Invalid input")
