@@ -1,13 +1,4 @@
 hello this is my first text file
-<<<<<<< feature-x
-Making changes to follow step a-4 from assessment 2 Devops.
-
-Changes made on feature xx
-Change made on feature y
-=======
-Changes from main branch.
->>>>>>> main
+<<<<<<< feature-y
 
 changes made feature y
-=======
->>>>>>> Stashed changes
